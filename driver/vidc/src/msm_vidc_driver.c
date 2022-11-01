@@ -3852,7 +3852,8 @@ int msm_vidc_queue_buffer_single(struct msm_vidc_inst *inst, struct vb2_buffer *
 		return -EINVAL;
 
 	/* update start timestamp */
-	msm_vidc_add_buffer_stats(inst, buf);
+        if (!msm_vidc_is_super_buffer(inst))
+                 msm_vidc_add_buffer_stats(inst, buf);
 
 	if (is_meta_rx_inp_enabled(inst, META_OUTBUF_FENCE) &&
 		is_output_buffer(buf->type)) {
