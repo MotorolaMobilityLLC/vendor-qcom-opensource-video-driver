@@ -337,7 +337,7 @@ static struct msm_platform_core_capability core_data_volcano_v1[] = {
 	{MAX_MBPF, 69632}, /* ((4096x2176)/256) x 2 */
 	/* max_load 4096x2160@30fps*/
 	/* Concurrency:UHD@30fps decode + 1080p@30fps encode */
-	{MAX_MBPS, 1224000},
+	{MAX_MBPS, 1284000},
 	{MAX_IMAGE_MBPF, 1048576}, /* (16384x16384)/256 */
 	{MAX_MBPF_HQ, 8160}, /* ((1920x1088)/256) */
 	{MAX_MBPS_HQ, 244800}, /* ((1920x1088)/256)@30fps */
