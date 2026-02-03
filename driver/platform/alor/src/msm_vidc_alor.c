@@ -302,11 +302,11 @@ static const struct msm_platform_core_capability core_data_alor[] = {
 	{MAX_NUM_4K_SESSIONS, 4},
 	{MAX_NUM_8K_SESSIONS, 2},
 	{MAX_SECURE_SESSION_COUNT, 3},
-	{MAX_RT_MBPF, 138240}, /* ((8192*4320)/256)) */
-	{MAX_MBPF, 139264}, /* (4 * ((4096*2176)/256)) */
+	{MAX_RT_MBPF, 140390}, /* ((8192*4320)/256)) */
+	{MAX_MBPF, 140390}, /* (4 * ((4096*2176)/256)) */
 	/* max_load is 8192x4320@30fps */
 	/* Concurrency: UHD@30 decode + uhd@30 encode */
-	{MAX_MBPS, 4147200},
+	{MAX_MBPS, 4210360},
 	{MAX_IMAGE_MBPF, 1048576}, /* (16384x16384)/256 */
 	{MAX_MBPF_HQ, 8160}, /* ((1920x1088)/256) */
 	{MAX_MBPS_HQ, 244800}, /* ((1920x1088)/256)@30fps */
